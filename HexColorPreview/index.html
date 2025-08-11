@@ -6,7 +6,34 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="flex justify-center items-center">
+    <div
+      class="container mx-auto w-5xl sm:max-w-4xl md:max-w-5xl lg:max-w-7xl min-h-[400px] sm:min-h-[200px] md:min-h-[300px] bg-gray-200 p-6 sm:p-8 rounded-lg shadow-lg"
+    >
+      <div class="content-hex flex justify-between">
+        <div
+          class="w-80 sm:max-w-2xl md:max-w-3xl lg:max-w-4xl min-h-[200px] sm:min-h-[250px] md:min-h-[300px] rounded-lg shadow-lg border"
+          id="colorpv"
+        ></div>
+        <div class="container-inp-code flex flex-col justify-center">
+          <h1 class="text-2xl font-bold mb-4 text-center">Input code</h1>
+          <input
+            type="text"
+            id="inp-code"
+            class="inp-code w-full h-10 px-4 rounded-md bg-red-200 mr-[300px]"
+            value="#"
+          />
+          <button
+            class="w-full h-10 mt-4 bg-blue-500 text-white"
+            id="change-color"
+          >
+            Change color
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script></script>
   </body>
 </html>
