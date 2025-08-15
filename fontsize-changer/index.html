@@ -24,6 +24,30 @@
         <button id="reset-btn">Reset</button>
       </div>
     </div>
+    <script>
+      $(document).ready(function () {
+        $("#submit-change").click(function () {
+          var size = $("#inp-size").val();
+          var type = $("#select-type").val();
+          $(".change").css("font-size", size + type);
+        });
+        $("#reset-btn").click(function () {
+          $(".change").css("font-size", "12px");
+        });
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#submit-change").click(function () {
+          var size = $("#inp-size").val();
+          var type = $("#select-type").val();
+          $(".change").css("font-size", size + type);
+        });
+        $("#reset-btn").click(function () {
+          $(".change").css("font-size", "12px");
+        });
+      });
+    </script>
   </body>
 </html>
