@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.change {
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  text-align: center;
+  height: 30px;
+}
+.inp-size {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#submit-change {
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #4c4c4c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+#reset-btn {
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
