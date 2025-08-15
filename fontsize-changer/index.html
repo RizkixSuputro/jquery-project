@@ -6,6 +6,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="size-change">
+      <h2 class="change">12</h2>
+    </div>
+    <div class="container">
+      <div class="inp-size">
+        <input type="number" id="inp-size" min="1" max="100" value="12" />
+        <label for="files">Select size type</label>
+        <select name="select-type" id="select-type">
+          <optgroup label="size">
+            <option value="px">Px</option>
+            <option value="rem">Rem</option>
+            <option value="em">Em</option>
+          </optgroup>
+        </select>
+        <button id="submit-change">Change Font Size</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </body>
 </html>
